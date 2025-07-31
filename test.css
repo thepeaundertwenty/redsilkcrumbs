@@ -1,0 +1,63 @@
+.service-box {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+  min-height: ; /* or just height: 200px */
+
+}
+
+.service-box:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.service-box h3 {
+  margin-top: 0;
+}
+
+.service-box a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.service-row {
+  display: flex;
+  gap: 1rem; /* space between the boxes */
+  margin-top: 1rem;
+}
+
+.service-box a:hover {
+  background-color: #005fa3;
+}
+
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.nav-button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 0.5em;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-button:hover {
+  background-color: #005fa3;
+}
